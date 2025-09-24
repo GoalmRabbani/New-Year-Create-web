@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* *{
+    margin: 0;
+} */
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* Banner Style */
+
+.banner_section {
+    background-image: url("../images/banner/banner1.png");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 100px;
+    
+    
+
+}
+/* .bg_img{
+    background-color: #f5dbd0;
+    border-radius: 100% 100%;
+    
+} */
+.banner_text{
+    max-width: 500px;
+    text-align: right;
+   
+}
+.banner_tittle{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 0;
+   
+}
+.banner_descrip,.plan_descrip,.middle_descrip{
+    color: #444343;
+    font-size: 16px;
+}
+.btn{
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #F15B22;
+    font-weight: bold;
+}
+
+/* --------------- */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* meddle section  */
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 87px;
+    max-width: 0 auto;
+    padding: 0 20px;
+    margin: 130px 0;
+}
+
+.middle_tittle,.plan_tittle,.watch_tittle,.footerFuture_tittle{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+
+
+.plan_contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 130px;
+    margin-top: 50px;
+}
+.plan_tittle{
+    text-align: center;
+}
+
+.plan_conte_tittle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.middle_list{
+    color: #444343;
+    list-style-image: url("/images/icons/check-light-full.svg");
+    
+
+}
+
+/* Lest section */
+.opacity_img{
+    background-image: url("/images/watch.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-bottom: 130px;
+    
+}
+.watch_img{
+    background-image: url("/images/gradient2.png");
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.watch_content{
+    width: 460px;
+    padding: 10px 65px;
+    color: white;
+}
+.btnL{
+    color: #F15B22;
+    background-color: white;
+    margin-top: 0;
+}
+.watch_tittle{
+    margin-bottom: 15px;
+}
+
+/* Footer section */
+footer{
+    color: white;
+    background-color: black;
+    padding: 130px;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.social_logo img{
+    margin-right: 20px;
+}
+
+.footerSubscrie{
+    font-size: 25;
+    font-weight: 400;
+    
+}
+.footerSubscrie input{
+    color: #444343;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
