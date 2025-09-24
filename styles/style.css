@@ -97,21 +97,21 @@ main{
 }
 .middle_list{
     color: #444343;
-    list-style-image: url("/images/icons/check-light-full.svg");
+    list-style-image: url("../images/icons/check-light-full.svg");
     
 
 }
 
 /* Lest section */
 .opacity_img{
-    background-image: url("/images/watch.png");
+    background-image: url("../images/watch.png");
     background-repeat: no-repeat;
     height: 300px;
     margin-bottom: 130px;
     
 }
 .watch_img{
-    background-image: url("/images/gradient2.png");
+    background-image: url("../images/gradient2.png");
     background-repeat: no-repeat;
     height: 300px;
 }
